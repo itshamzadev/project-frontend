@@ -120,20 +120,8 @@ h2 {
   letter-spacing: -0.01em;
 }
 
-.brand::before,
-.auth-brand-mark {
-  display: grid;
-  place-items: center;
-  flex: 0 0 auto;
-  width: 30px;
-  height: 30px;
-  border-radius: 7px;
-  background: var(--accent);
-  color: #ffffff;
-  content: "IS";
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
+.brand {
+  gap: 0;
 }
 
 .side-user {
@@ -894,14 +882,6 @@ td a:hover {
   color: #ffffff;
   font-size: 13px;
   font-weight: 650;
-}
-
-.auth-brand-mark {
-  width: 28px;
-  height: 28px;
-  border-radius: 6px;
-  background: var(--accent);
-  font-size: 9px;
 }
 
 .auth-eyebrow,

@@ -32,7 +32,6 @@ export default function LoginPage() {
       <div className="auth-layout">
         <section className="auth-hero">
           <div className="auth-brand">
-            <span className="auth-brand-mark" aria-hidden="true">IS</span>
             <span>Inventory Suite</span>
           </div>
           <div className="auth-hero-copy">
